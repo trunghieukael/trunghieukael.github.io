@@ -1,0 +1,58 @@
+/*
+Theme Name: parami
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+@media only screen and (max-width: 48em) {
+    /*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+@font-face{font-family:'UTM Caviar';src:url("asset/fonts/UTMCaviar.woff2") format("woff2"),url("asset/fonts/UTMCaviar.woff") format("woff");font-weight:300;font-style:normal}
+.cuoi-trang h4{text-transform:uppercase;color:#E6D4B4;position:relative;margin-bottom:43px}
+.cuoi-trang h4:after{content:" ";width:40px;border-bottom:2px #e6d4b4 solid;position:absolute;bottom:-12px;left:0}
+.cuoi-trang p{margin-bottom:0}
+.cuoi-trang p.ten-cong-ty{color: #e6d2a9;text-transform:uppercase;font-weight:300;font-size:20px;letter-spacing:1px!important;margin-bottom:24px;}
+.cuoi-trang h5{color:#E6D4B4;text-transform:uppercase}
+.cuoi-trang img{height:98px}
+.cuoi-trang .social{width:100%;overflow:hidden;margin-bottom:15px;margin-top:16px}
+.cuoi-trang .social a:first-child{width:45px;height:45px;padding:5px;text-align:center;float:left;margin-right:9px;border-radius:5px;font-size:20px;background: #038792;}
+.cuoi-trang .social a:last-child{margin-top: 7px;float: left;margin-left: 13px;}
+.cuoi-trang .social a:hover{color: #006a73;}
+.cuoi-trang ul{padding-left:15px;list-style:none}
+.cuoi-trang ul li::before{content:"\2022";color:#e2ba6a;font-weight:700;display:inline-block;width:1em;margin-left:-1em}
+.cuoi-trang ul li {
+    margin-left: 0 ;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, body, a, strong, li {
+    font-family: UTM Caviar,san-serif!important;
+}
+@media screen and (min-width:769px){
+#masthead #logo img {
+    max-height: 160px;
+    width: 110px;
+}
+}
+.stuck #logo img {
+    width:auto !important;
+}
+
+#masthead {
+    background: rgba(0,107,115,0.84)!important;
+}
+
+#masthead a {
+    color: #fff;
+}
+@media screen and (max-width: 768px) {
+    .mat-bang a.btn {
+        margin-left:auto !important;
+    }
+}
